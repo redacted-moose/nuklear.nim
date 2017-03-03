@@ -1,6 +1,44 @@
-import nuklear/wrapper
-export wrapper
+{.deadCodeElim: on, passC: "-Inuklear/core/", compile: "nuklear/core/nuklear.c".}
 
+import
+  nuklear.core.nuklear_allocator as nk_allocator,
+  nuklear.core.nuklear_api as nk_api,
+  nuklear.core.nuklear_constants as nk_constants,
+  nuklear.core.nuklear_context as nk_context,
+  nuklear.core.nuklear_draw_list as nk_draw_list,
+  nuklear.core.nuklear_drawing as nk_drawing,
+  nuklear.core.nuklear_font as nk_font,
+  nuklear.core.nuklear_gui as nk_gui,
+  nuklear.core.nuklear_input as nk_input,
+  nuklear.core.nuklear_memory_buffer as nk_memory_buffer,
+  nuklear.core.nuklear_panel as nk_panel,
+  nuklear.core.nuklear_stack as nk_stack,
+  nuklear.core.nuklear_string as nk_string,
+  nuklear.core.nuklear_table as nk_table,
+  nuklear.core.nuklear_text_edit as nk_text_edit,
+  nuklear.core.nuklear_window as nk_window
+
+import
+  nuklear.drawing,
+  nuklear.draw_list
+
+export
+  nk_allocator,
+  nk_api,
+  nk_constants,
+  nk_context,
+  nk_draw_list,
+  nk_drawing,
+  nk_font,
+  nk_gui,
+  nk_input,
+  nk_memory_buffer,
+  nk_panel,
+  nk_stack,
+  nk_string,
+  nk_table,
+  nk_text_edit,
+  nk_window
 
 type
   PContext* = ptr Context
