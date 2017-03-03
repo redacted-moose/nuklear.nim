@@ -3,7 +3,6 @@
 import
   nuklear.core.nuklear_allocator as nk_allocator,
   nuklear.core.nuklear_api as nk_api,
-  nuklear.core.nuklear_constants as nk_constants,
   nuklear.core.nuklear_context as nk_context,
   nuklear.core.nuklear_draw_list as nk_draw_list,
   nuklear.core.nuklear_drawing as nk_drawing,
@@ -25,7 +24,6 @@ import
 export
   nk_allocator,
   nk_api,
-  nk_constants,
   nk_context,
   nk_draw_list,
   nk_drawing,

@@ -69,7 +69,7 @@ type
 const
   UNDEFINED* = - 1.0
 
-template FLAG(x: untyped): untyped = (1 shl (x))
+template FLAG*(x: untyped): untyped = (1 shl (x))
 
 type
   Color* {.nuklear, importc: "struct nk_color".} = object
