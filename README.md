@@ -16,6 +16,6 @@ Look in the `example` and `demo` directory to see some sample apps.  This is a p
 This library isn't yet available through the main nimble repos.  However, you can clone this repo and simply `nimble install nuklear` to start playing with it now.
 
 # License
-In the spirit of vertun's original project, this wrapper is licensed as follows:
+In the spirit of vurtun's original project, this wrapper is licensed as follows:
 
 This software is dual-licensed to the public domain and under the following license: you are granted a perpetual, irrevocable license to copy, modify, publish and distribute this file as you see fit.
