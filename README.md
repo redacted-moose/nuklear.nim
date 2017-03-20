@@ -1,5 +1,5 @@
 # Nuklear.nim
-A wrapper around vertun's excellent [nuklear](https://github.com/vertun/nuklear) library, an immediate mode windowing library.
+A wrapper around vurtun's excellent [nuklear](https://github.com/vurtun/nuklear) library, an immediate mode windowing library.
 
 Embedded version of nuklear: 1.14 (commit cc9d6f3)
 
